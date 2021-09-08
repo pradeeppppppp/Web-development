@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About Page</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        background-color: white;
+      }
+      /* .footer {
+        background-color: black;
+        color: white;
+        border-radius: 10px;
+       margin-top: 100%;
+      margin-bottom:100%;  
+
+        text-align: center;
+        position: sticky;
+        bottom: 0;
+      
+      } */
+      .about{
+        position: absolute;
+            width: 100vw;
+            height: 100vh;
+            overflow:hidden;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+      }
+      .about video{
+        position: absolute;
+            top: 0%;
+            left: 0%;
+            height: 100%;
+            width: 100%;
+
+            object-fit: cover;
+      }
+      .about p{
+        position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background:#fff;
+            font-size: 10vw;
+            text-align: center;
+            text-transform: capitalize;
+            color: #000;
+            line-height: 100vh;
+            mix-blend-mode:screen;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="about">
+        <video autoplay muted loop>
+            <source src="video/video.mp4"> 
+        </video>
+      <p>I AM PRADEEP BIND 😜</p>
+    </div>
+    <!-- <div class="footer">Copyright &copy PRADEEP BIND</div> -->
+  </body>
+</html>
